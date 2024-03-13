@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+    width: 99%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 40%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container-top {
+    width: 99.5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20%;
+
+}
+
+.container-top>input {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    width: 100.5%;
+    height: 100%;
+}
+
+.container-bottom {
+    padding-top: 10px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.container-bottom>div>p {
+    position: relative;
+    left: 10px;
+}
+
+.lenght {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.lenght>input {
+    width: 10%;
+    position: relative;
+    right: 10px;
+}
+
+.upper-case {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.lower-case {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.number {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.special {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.checkbox {
+    position: relative;
+    right: 10px;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width: 934px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media(max-width: 779px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media(max-width: 659px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media(max-width: 547px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media(max-width: 470px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 414px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media(max-width: 484px) {
+    .container {
+        width: 98%;
+    }
+
+    .lenght {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .checkbox {
+        position: absolute;
+    }
+}
